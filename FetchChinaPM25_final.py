@@ -10,7 +10,7 @@ def sendReport(foldersize):
     session = smtplib.SMTP('smtp.gmail.com', 587)
     session.ehlo()
     session.starttls()
-    session.login("cguitar11@gmail.com","segovianoguitar")
+    session.login("NOTSHOWN","NOTSHOWN")
 
     headers = "\r\n".join(["from:" + "ShuShi",
                            "subject:" + "RPi working fine",
